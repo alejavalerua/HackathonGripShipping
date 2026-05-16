@@ -1,0 +1,27 @@
+# Data
+data/raw/*.csv
+data/raw/*.zip
+*.parquet
+*.pkl
+*.joblib
+*.h5
+
+# Notebooks outputs
+notebooks/*.ipynb
+**/.ipynb_checkpoints/
+**/__pycache__/
+*.pyc
+
+# Environment
+.env
+.venv/
+venv/
+env/
+
+# Submissions (solo guardar las mejores)
+submissions/*.csv
+!submissions/sample_submission.csv
+
+# OS
+.DS_Store
+Thumbs.db
